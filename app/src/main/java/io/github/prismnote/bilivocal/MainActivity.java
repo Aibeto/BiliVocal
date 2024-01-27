@@ -1,5 +1,7 @@
 package io.github.prismnote.bilivocal;
 
+import static android.widget.Toast.makeText;
+
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
@@ -50,7 +52,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast = Toast.makeText("helloworld!");
+                Toast toast = makeText("helloworld!");
+            }
+
+            private Toast makeText(String s) {
             }
         });
     }
