@@ -44,6 +44,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
+/*
 dependencies {
     // ...
     // 将 <VERSION> 替换为具体的版本号，如 0.1.0-dev04
@@ -51,3 +52,4 @@ dependencies {
     // 推荐使用上方最新版本或稳定版本（若有）
     implementation 'com.github.Moriafly:SaltUI:<0.1.0-dev47>'
 }
+*/

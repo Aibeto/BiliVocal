@@ -16,7 +16,7 @@ public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
+/*    public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         HomeViewModel homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
@@ -27,7 +27,7 @@ public class HomeFragment extends Fragment {
         final TextView textView = binding.textHome;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
-    }
+    }*/
 
     @Override
     public void onDestroyView() {

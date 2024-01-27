@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
 
-/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,24 +38,6 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-    }
-*/
-
-    private Button btn;
-    @SuppressLint("ResourceType")
-    @Override
-    protected void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
-        setContentView(R.id.helloworld);
-        Button button=findViewById(R.id.helloworld);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-
-
-        });
     }
 
 }
