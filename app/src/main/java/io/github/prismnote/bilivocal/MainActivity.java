@@ -52,11 +52,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast = makeText("helloworld!");
+                //Toast toast = makeText("helloworld!");
             }
 
-            private Toast makeText(String s) {
-            }
+
         });
     }
 
